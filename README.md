@@ -28,8 +28,8 @@ To create a prez cluster, a minimal prez configuration file should contain the b
 name node-9000
 port 9000
 cluster-port 10000
-#cluster-config-file nodes.conf
-cluster-node-timeout 5000
+cluster-config-file nodes.conf
+#cluster-node-timeout 5000
 loglevel debug
 ```
 
